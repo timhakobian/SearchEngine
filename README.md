@@ -1,2 +1,2 @@
 # SearchEngine
-Built a search engine for the Computer Science department of the University of California, Irvine.
+Built a search engine for the Computer Science department of the University of California, Irvine. This search engine takes the HTML contents from files that have been obtained with the web crawler. It operates by first building a inverted index and then allows the user to search. It returns results extremely fast and assures their relevance by using tf-idf scoring of each url file. Multithreading is also implemented in the code to assure speed optimality. 
